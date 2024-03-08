@@ -4,7 +4,7 @@ Java is hybrid: https://docs.oracle.com/en/database/oracle/oracle-database/19/jj
 C++ is compiled: Source pending
 
 Scoping
-Python: Dynamically
+Python: Dynamic and Static. Why?
 Java: Static
 C++: Static.
 
@@ -22,3 +22,10 @@ Java: Everything must be in a class and primiative data types are discouraged
 (this will be more for data types).
 
 C++: Access specifiers are specified in as public: [variables] or private: [variables].
+
+Function parameters:
+Python: Can have default assigned Function parameters. *args allows variable length arguments.
+
+C++: Defualt assigned function parameters. 
+
+Java: No default assigned function parameters. []args allows variable length arguments.
