@@ -2,3 +2,23 @@ How the langauge is ran.
 Python in interrpeted: https://docs.python.org/3/glossary.html#term-interpreted
 Java is hybrid: https://docs.oracle.com/en/database/oracle/oracle-database/19/jjdev/Oracle-JVM-JIT.html#GUID-23D5BA60-A2B3-45F9-93DF-81A3D971CA50
 C++ is compiled: Source pending
+
+Scoping
+Python: Dynamically
+Java: Static
+C++: Static.
+
+Garbage collectoin
+Python: Implict
+Java: Implict
+C++: Explict
+
+Classes:
+Python: Classes are weird. Attributes how you would normally define them are constant.
+You need to add the class as a formal parameter. You can Dynamically Add Attributes within
+methods. Private variables are declared with __[insert name].
+
+Java: Everything must be in a class and primiative data types are discouraged 
+(this will be more for data types).
+
+C++: Access specifiers are specified in as public: [variables] or private: [variables].
