@@ -3,15 +3,21 @@ Python in interrpeted: https://docs.python.org/3/glossary.html#term-interpreted
 Java is hybrid: https://docs.oracle.com/en/database/oracle/oracle-database/19/jjdev/Oracle-JVM-JIT.html#GUID-23D5BA60-A2B3-45F9-93DF-81A3D971CA50
 C++ is compiled: Source pending
 
+-----
+
 Scoping
-Python: Dynamic and Static. Why?
+Python: Static
 Java: Static
-C++: Static.
+C++: Static
+
+-----
 
 Garbage collectoin
 Python: Implict
 Java: Implict
 C++: Explict
+
+-----
 
 Classes:
 Python: Classes are weird. Attributes how you would normally define them are constant.
@@ -23,9 +29,50 @@ Java: Everything must be in a class and primiative data types are discouraged
 
 C++: Access specifiers are specified in as public: [variables] or private: [variables].
 
+-----
+
 Function parameters:
 Python: Can have default assigned Function parameters. *args allows variable length arguments.
 
 C++: Defualt assigned function parameters. 
 
 Java: No default assigned function parameters. []args allows variable length arguments.
+
+-----
+
+Typing system:
+Python: Anything can be anything, types can be changed without complaint.
+Can not have variables without an assigned value.
+
+C++: Very strong typing. Must be declared and can have variables with unassigned values.
+Will give a warning
+
+Java: Similar to C++.
+
+
+-----
+Exceptions
+Python: Uses try and catch system.
+
+C++: Similar to Python.
+
+Java: Similar to Python.
+-----
+Abstraction
+
+Python: Classes only
+
+Java: Classes only
+
+C++: Structs and classes
+-----
+Data types:
+Python: 
+- Primitive data types: Integer, Float, Boolean, String
+
+Java:
+- Primitive data types: Similar to C however encourages you to use Classes instead.
+
+C++:
+- Primitive data types: Many
+-----
