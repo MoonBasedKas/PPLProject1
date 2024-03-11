@@ -48,9 +48,10 @@ Java: No default assigned function parameters. []args allows variable length arg
 Typing system:
 Python: Anything can be anything, types can be changed without complaint.
 Can not have variables without an assigned value.
+Many types but weak type checking.
 
 C++: Very strong typing. Must be declared and can have variables with unassigned values.
-Will give a warning
+Will give a warning.
 
 Java: Similar to C++.
 
