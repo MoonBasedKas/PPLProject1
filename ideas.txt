@@ -4,6 +4,11 @@ Java is hybrid: https://docs.oracle.com/en/database/oracle/oracle-database/19/jj
 C++ is compiled: Source pending
 
 -----
+Extra links
+overall efficency: https://www.usenix.org/conference/atc22/presentation/lion
+                   http://jict.ilmauniversity.edu.pk/arc/Vol14/14.1/4.pdf
+
+-----
 
 Scoping
 Python: Static
