@@ -12,7 +12,7 @@ C++: Static
 
 -----
 
-Garbage collectoin
+Garbage collection
 Python: Implict
 Java: Implict
 C++: Explict
@@ -51,6 +51,7 @@ Java: Similar to C++.
 
 
 -----
+
 Exceptions
 Python: Uses try and catch system.
 
@@ -66,6 +67,7 @@ Java: Classes only
 
 C++: Structs and classes
 -----
+
 Data types:
 Python: 
 - Primitive data types: Integer, Float, Boolean, String
@@ -75,4 +77,5 @@ Java:
 
 C++:
 - Primitive data types: Many
+
 -----
