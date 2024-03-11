@@ -100,3 +100,13 @@ C++: if, switch, while, do-while, for, goto, pass, continue.
 
 Goto: disrupts the flow of the program and unconditially transfers control
 -----
+
+Dependency:
+
+Python: Platform indepdent. Due to being interpreted instead of compiled.
+
+Java: Platform indepdent. Due to java byte code. As long as the JVM can be ran 
+it can run on your platform.
+
+C++: Machine depedent
+-----
