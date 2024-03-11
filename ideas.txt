@@ -84,3 +84,19 @@ C++:
 - Primitive data types: Many
 
 -----
+https://docs.python.org/3/tutorial/controlflow.html
+
+Control Flow:
+Python: if, for, while, break, continue, pass, match (switch), functions
+For loop will iterate through a list and each value x will be equal to 
+a value in the list.
+
+match: similar to case statement
+
+Java: if, for, while, do-while, continue, pass, switch.
+do-while do at least once.
+
+C++: if, switch, while, do-while, for, goto, pass, continue.
+
+Goto: disrupts the flow of the program and unconditially transfers control
+-----
