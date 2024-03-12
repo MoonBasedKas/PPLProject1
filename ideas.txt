@@ -27,13 +27,13 @@ C++: Explict
 Classes:
 Python: Classes are weird. Attributes how you would normally define them are constant.
 You need to add the class as a formal parameter. You can Dynamically Add Attributes within
-methods. Private variables are declared with __[insert name].
+methods. Private variables are declared with __[insert name]. Classes are optional.
 
 Java: Everything must be in a class and primiative data types are discouraged 
-(this will be more for data types).
+(this will be more for data types). REQUIRES user to write classes.
 
 C++: Access specifiers are specified in as public: [variables] or private: [variables].
-
+Classes are optional.
 -----
 
 Function parameters:
