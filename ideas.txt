@@ -1,7 +1,8 @@
 How the langauge is ran.
 Python in interrpeted: https://docs.python.org/3/glossary.html#term-interpreted
 Java is hybrid: https://docs.oracle.com/en/database/oracle/oracle-database/19/jjdev/Oracle-JVM-JIT.html#GUID-23D5BA60-A2B3-45F9-93DF-81A3D971CA50
-C++ is compiled: Source pending
+C++ is compiled: https://en.cppreference.com/w/
+
 
 -----
 Extra links
@@ -10,14 +11,17 @@ overall efficency: https://www.usenix.org/conference/atc22/presentation/lion
 
 -----
 
-Scoping
+Scoping:
 Python: Static
+
 Java: Static
+
 C++: Static
 
 -----
 
-Garbage collection
+Garbage collection:
+
 Python: Implict
 Java: Implict
 C++: Explict
@@ -60,20 +64,22 @@ Java: Similar to C++.
 
 -----
 
-Exceptions
+Exception handling:
 Python: Uses try and catch system.
 
 C++: Similar to Python.
 
 Java: Similar to Python.
------
-Abstraction
 
+-----
+
+Abstraction:
 Python: Classes only
 
 Java: Classes only
 
 C++: Structs and classes
+
 -----
 
 Data types:
@@ -87,6 +93,7 @@ C++:
 - Primitive data types: Many
 
 -----
+
 https://docs.python.org/3/tutorial/controlflow.html
 
 Control Flow:
@@ -102,6 +109,7 @@ do-while do at least once.
 C++: if, switch, while, do-while, for, goto, pass, continue.
 
 Goto: disrupts the flow of the program and unconditially transfers control
+
 -----
 
 Dependency:
@@ -112,4 +120,5 @@ Java: Platform indepdent. Due to java byte code. As long as the JVM can be ran
 it can run on your platform.
 
 C++: Machine depedent
+
 -----
