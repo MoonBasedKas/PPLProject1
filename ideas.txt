@@ -38,10 +38,12 @@ Classes are optional.
 
 Function parameters:
 Python: Can have default assigned Function parameters. *args allows variable length arguments.
+Functions are first class data types.
 
-C++: Defualt assigned function parameters. 
+C++: Defualt assigned function parameters. First class.
 
 Java: No default assigned function parameters. []args allows variable length arguments.
+First class with static.
 
 -----
 
