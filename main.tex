@@ -23,7 +23,6 @@
   2018}{Woodstock, NY}
 
 
-
 \begin{document}
 
 
@@ -42,6 +41,27 @@
 }
 
 
+
+\newcommand{\PLtitle}{\setlength{\parindent}{0pt}
+  \twocolumn[{%
+        \begin{center}
+          \huge\textbf{THE TITLE}\\
+          \normalsize Subtitle\\
+
+          \begin{singlespace}
+
+
+            Name: Kassidy Maberry\\
+            Department of Computer Science and Engineering\\
+            New Mexico Institue of Mining and Technology\\
+            Socorro, New Mexico, USA\\
+            kassidy.maberry@student.nmt.edu\\
+            \bigskip
+            \bigskip
+          \end{singlespace}
+        \end{center}
+      }]
+}
 
 %%
 %% The abstract is a short summary of the work to be presented in the
@@ -91,10 +111,16 @@
 %% This command processes the author and affiliation and title
 %% information and builds the first part of the formatted document.
 
-\maketitle
+% \maketitle
+\PLtitle
+
+\section*{Abstract}
+
+\section*{CCS Concepts}
+
+\section*{Keywords}
 
 \section{Introduction}
-hello
 
 \end{document} % it will say there is a problem but there is not.
 
