@@ -35,19 +35,21 @@ methods. Private variables are declared with __[insert name]. Classes are option
 
 Java: Everything must be in a class and primiative data types are discouraged 
 (this will be more for data types). REQUIRES user to write classes.
+Interfaces.
 
 C++: Access specifiers are specified in as public: [variables] or private: [variables].
 Classes are optional.
+Multiple inheritance.
 -----
 
 Function parameters:
 Python: Can have default assigned Function parameters. *args allows variable length arguments.
 Functions are first class data types.
 
-C++: Defualt assigned function parameters. First class.
+C++: Defualt assigned function parameters. First class. Pass by reference and value
 
 Java: No default assigned function parameters. []args allows variable length arguments.
-First class with static.
+First class with static. Avoids pass by reference.
 
 -----
 
@@ -122,3 +124,8 @@ it can run on your platform.
 C++: Machine depedent
 
 -----
+
+Pointers:
+Python and Java do not have pointers.
+
+C++ uses pointers.
