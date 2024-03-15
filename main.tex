@@ -127,9 +127,17 @@ Python, C++, and Java all have their own unique advantage. That might make one p
 In this we will attempt to determine the best features that each language has and what features we should remove in future iterations.
 
 \section{Classes}
-All languages provide classes and are an important feature when designing a high level langauge. However, Python implements classes with unique
-syntax and Semantics. Attributes not defined in classes are constant, private variables are declared with a double underscore $(\_\_x)$, and local
-attributes must be declared in methods.
+All the languages we are analyzing provide classes and are an important feature when designing a high level language. However, Python implements classes with unique
+syntax and Semantics. Attributes not defined in classes are static private variables are declared with a double underscore $(\_\_x)$, and local
+attributes must be declared in methods. Finally, constants do not exist. Being able to declare new attributes in a method is a very powerful feature.
+The problem is that while powerful it hurts readability and is a weird choice for python as a language. When attributes could be defined anywhere it makes attributes hard to find.\\
+
+In C++ and Java the classes are implemented similarly when considering attributes. All attributes are declared outside of methods. You state if the attribute is public, private, or static.
+In python attributes and methods are public by default meanwhile Java and C++ attributes are Private by default. Private by default attributes is great. Enforcing abstraction on the user and
+increasing the security of their classes as the user is forced to decide what can be accessed from the outside. Python declaring private is more readable but is held back by most attributes
+most likely being declared within methods.\\
+
+
 
 \section{Functions}
 
