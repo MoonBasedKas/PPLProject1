@@ -1,7 +1,8 @@
 How the langauge is ran.
 Python in interrpeted: https://docs.python.org/3/glossary.html#term-interpreted
 Java is hybrid: https://docs.oracle.com/en/database/oracle/oracle-database/19/jjdev/Oracle-JVM-JIT.html#GUID-23D5BA60-A2B3-45F9-93DF-81A3D971CA50
-C++ is compiled: https://en.cppreference.com/w/
+C++ is compiled: https://en.cppreference.com/w/ | https://learn.microsoft.com/en-us/cpp/build/projects-and-build-systems-cpp?view=msvc-170
+
 
 
 -----

@@ -116,7 +116,9 @@
 
 
 \section*{Abstract}
-Python, C++, and Java are all popular languages. [Finish it].\\
+Python, C++, and Java are all popular languages each with their own advantages. We will observe how each 
+language compares with each other. Determining what we gain from each implementation and if a certain implementation is 
+better.\\
 
 \section*{CCS Concepts}
 \textbullet\hspace*{0.5mm} \textbf{Software and its engineering} $\rightarrow$ \textbf{Language Features}; Syntax; \textit{Semantics}.\\
@@ -124,9 +126,12 @@ Python, C++, and Java are all popular languages. [Finish it].\\
 Syntax, Semantics, Language Features.\\
 \section{Introduction}
 Python, C++, and Java all have their own unique advantage. That might make one prefer over the others.
-In this we will attempt to determine the best features that each language has and what features we should remove in future iterations.
+In this we will attempt to determine the best features that each language has and compare it to others.
+Each language has a different goal in mind. For example Python strives to be readable and beginner-friendly compared to C++
+which wants to give the user power.\\
 
 \section{Classes}
+
 All the languages we are analyzing provide classes and are an important feature when designing a high level language. However, Python implements classes with unique
 syntax and Semantics. Attributes not defined in classes are static private variables are declared with a double underscore $(\_\_x)$, and local
 attributes must be declared in methods. Finally, constants do not exist. Being able to declare new attributes in a method is a very powerful feature.
@@ -137,20 +142,32 @@ In python attributes and methods are public by default meanwhile Java and C++ at
 increasing the security of their classes as the user is forced to decide what can be accessed from the outside. Python declaring private is more readable but is held back by most attributes
 most likely being declared within methods.\\
 
+\subsection*{Find a name}
 
 
 \section{Functions}
 
-\section{Scoping}
-
 \section{Control Flow}
+
 
 \section{Data Types}
 
 %  Could combine that with Classes and functions.
 
-\section{Efficiency}
-% Compi9lation and Platform dependency.
+\section{Garbage Collection}
+
+While a lot of factors can be broken down into sections there are some factors existing outside these sections. These 
+factors are still worth considering. One instance is garbage collection if we want implicit or explicit. While implicit
+garbage collection is great and helps secure the language. This could save users a lot of time and make debugging easier 
+but if you are looking for efficiency by removing the overhead of garbage collection explicit would be better.\\
+
+Python and Java both have implicit garbage collection meanwhile C++ has explicit. Explicit garbage collection relies on 
+the user to properly manage their memory usage. Users are very likely to not properly manage their memory and will 
+force the user to spend more time debugging. While the efficiency is great it is not worth the security we lose.\\
+
+\section*{References}
+
+
 
 \end{document} % it will say there is a problem but there is not.
 
