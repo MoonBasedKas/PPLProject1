@@ -31,30 +31,37 @@ C++: Explict
 Classes:
 Python: Classes are weird. Attributes how you would normally define them are constant.
 You need to add the class as a formal parameter. You can Dynamically Add Attributes within
-methods. Private variables are declared with __[insert name]. Classes are optional.
+methods. Private variables are declared with __[insert name]. Classes are optional. 
+Multiple inheritance, super() will automatically add all variables to class. Can work with each 
+class seperately.
 
 Java: Everything must be in a class and primiative data types are discouraged 
 (this will be more for data types). REQUIRES user to write classes.
+Interfaces.
 
 C++: Access specifiers are specified in as public: [variables] or private: [variables].
 Classes are optional.
+Multiple inheritance.
 -----
 
 Function parameters:
 Python: Can have default assigned Function parameters. *args allows variable length arguments.
 Functions are first class data types.
+Every parameter is effectively a generic.
 
-C++: Defualt assigned function parameters. First class.
+C++: Defualt assigned function parameters. First class kinda. Pass by reference and value.
+Templates
 
 Java: No default assigned function parameters. []args allows variable length arguments.
-First class with static.
+First class with static. Avoids pass by reference sticks to by value. First class also kinda
+using lambdas. Generics.
 
 -----
 
 Typing system:
-Python: Anything can be anything, types can be changed without complaint.
+Python: Anything can be anything, types can be changed without complaint, Type casting.
 Can not have variables without an assigned value.
-Many types but weak type checking.
+Many types but weak type checking. Type hints.
 
 C++: Very strong typing. Must be declared and can have variables with unassigned values.
 Will give a warning.
@@ -122,3 +129,8 @@ it can run on your platform.
 C++: Machine depedent
 
 -----
+
+Pointers:
+Python and Java do not have pointers.
+
+C++ uses pointers.

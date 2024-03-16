@@ -1,3 +1,11 @@
 main.aux
 main.log
 main.pdf
+main.tex
+main.synctex.gz
+main.out
+main.fls
+main.fdb_latexmk
+comment.cut
+fhelp.tex
+fhelp.pdf
