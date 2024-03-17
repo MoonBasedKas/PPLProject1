@@ -118,17 +118,15 @@
 \section*{Abstract}
 Python, C++, and Java are all popular languages each with their own advantages. We will observe how each
 language compares with each other. Determining what we gain from each implementation and if a certain implementation is
-better.\\
+better. With this analysis we can determine what features we would want to implement in future languages.\\
 
 \section*{CCS Concepts}
 \textbullet\hspace*{0.5mm} \textbf{Software and its engineering} $\rightarrow$ \textbf{Language Features}; Syntax; \textit{Semantics}.\\
 \section*{Keywords}
 Syntax, Semantics, Language Features.\\
 \section{Introduction}
-Python, C++, and Java all have their own unique advantage. That might make one prefer over the others.
-In this we will attempt to determine the best features that each language has and compare it to others.
-Each language has a different goal in mind. For example Python strives to be readable and beginner-friendly compared to C++
-which wants to give the user power.
+Python, C++, and Java all are popular to use languages. Each one while being object orteined are vastly different languages that share similar roots.
+
 
 \section{Class Attributes}
 
@@ -162,11 +160,12 @@ would be the better choice. Structs can also be paired with classes improving re
 have the added do-while loop allowing the user to execute the code at minimum once. The for loop is in all three languages however Python's for loop is different from the rest. Python's will iterate through a list (or any iterable)
 where Java and C++ for loops are more advanced while loops where now you can define a variable to iterate and how to iterate after each pass. Python has match statements which are the same as switch statements are in Java
 C++. All languages contain the if statement however once again they are all similar. Python introduces the elif statement which serves as the if else. The elif statement is great as it shortens the syntax of if else without
-changing the meaning.\\
+changing the meaning. Finally, all three languages contain the try statement for exception handling.\\
 
-Finally, all three languages contain the try statement for exception handling. These are done through the Try-Catch statement. They are all implemented very similarly allowing the user to try a statement of code, catch and handle
-exceptions, and throw user created exceptions. I believe this is a great feature for the robustness of the language.
-
+\tab These are done through the Try-Catch statement. They are all implemented very similarly allowing the user to try a statement of code, catch and handle
+exceptions, and throw user created exceptions. I believe this is a great feature for the robustness of the language. Finally, C++ has the goto statement.
+This is a bad inclusion. The goto statement disrupts the flow of the program
+and is insecure. The user can skip to anywhere in the program and thus use uninitialized data. The power gained is not worth security and readability we lose.\\
 
 
 
@@ -180,6 +179,14 @@ but if you are looking for efficiency by removing the overhead of garbage collec
 \tab Python and Java both have implicit garbage collection meanwhile C++ has explicit. Explicit garbage collection relies on
 the user to properly manage their memory usage. Users are very likely to not properly manage their memory and will
 force the user to spend more time debugging. While the efficiency is great it is not worth the security we lose.\\
+
+\section{Dependencies}
+leave empty for now.
+
+
+\section{Conclusion}
+After going over these various features if we were to design our language we should have some important features. For example, garbage collection is a must have and we should avoid
+the goto statement.
 
 \section*{References}
 
