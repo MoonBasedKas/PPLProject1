@@ -26,7 +26,7 @@
 \begin{document}
 
 
-\title{THE TITLE}
+\title{A Comparison of Languages}
 
 
 \author{Kassidy Maberry}
@@ -45,8 +45,8 @@
 \newcommand{\PLtitle}{\setlength{\parindent}{0pt}
   \twocolumn[{%
         \begin{center}
-          \huge\textbf{THE TITLE}\\
-          \normalsize Subtitle\\
+          \huge\textbf{A Comparison of Languages}\\
+          \normalsize A Comparision between C++, Python, and Java.\\
 
           \begin{singlespace}
 
@@ -125,7 +125,9 @@ better. With this analysis we can determine what features we would want to imple
 \section*{Keywords}
 Syntax, Semantics, Language Features.\\
 \section{Introduction}
-Python, C++, and Java all are popular to use languages. Each one while being object orteined are vastly different languages that share similar roots.
+Python, C++, and Java all are popular to use languages.
+Each language is unique and brings features and implementations that are unique to the language. These implementations might achieve similar goals,
+and we will observe which implementation worked best for each goal and if the implementation was worth it.
 
 
 \section{Class Attributes}
@@ -180,13 +182,20 @@ but if you are looking for efficiency by removing the overhead of garbage collec
 the user to properly manage their memory usage. Users are very likely to not properly manage their memory and will
 force the user to spend more time debugging. While the efficiency is great it is not worth the security we lose.\\
 
-\section{Dependencies}
-leave empty for now.
+\section{Platform Dependency}
+\tab C++ is hardware dependent while Python and Java are both platform independent. C++ by design is for high performance systems. It works
+closely with the hardware and thus inconsistency amongst hardware is expected. Not all hardware runs the same. Python and Java are meant to be platform independent as long as
+you have the Java Runtime enviroment or a Python interpreter. Both languages will always run execute the same. Each language is run differently. Python will be interpreted, C++ will be
+compiled, and Java a combination of both. Python due to being purely interpreted is rather slow. Java due to being hybrid it can be faster than C++ as it's able to optimize during runtime. (source)
+Then it would seem hybrid is the best approach to go.\\
+
 
 
 \section{Conclusion}
-After going over these various features if we were to design our language we should have some important features. For example, garbage collection is a must have and we should avoid
-the goto statement.
+After going over these various features if we were to design our language we should have some important features. For example, garbage collection is a must-have, but we should avoid
+the goto statement. The try-catch statement was a overall good addition all languages had that we should include. Classes should be optional and a feature like structs should be
+included for user choice. Class attributes should not be declared within the class and multiple inheritance should be included; to avoid ambigoutiy we should require the user have
+all methods and attributes have different names.
 
 \section*{References}
 
