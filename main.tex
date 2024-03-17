@@ -116,8 +116,8 @@
 
 
 \section*{Abstract}
-Python, C++, and Java are all popular languages each with their own advantages. We will observe how each 
-language compares with each other. Determining what we gain from each implementation and if a certain implementation is 
+Python, C++, and Java are all popular languages each with their own advantages. We will observe how each
+language compares with each other. Determining what we gain from each implementation and if a certain implementation is
 better.\\
 
 \section*{CCS Concepts}
@@ -128,39 +128,52 @@ Syntax, Semantics, Language Features.\\
 Python, C++, and Java all have their own unique advantage. That might make one prefer over the others.
 In this we will attempt to determine the best features that each language has and compare it to others.
 Each language has a different goal in mind. For example Python strives to be readable and beginner-friendly compared to C++
-which wants to give the user power.\\
+which wants to give the user power.
 
-\section{Classes}
+\section{Class Attributes}
 
-All the languages we are analyzing provide classes and are an important feature when designing a high level language. However, Python implements classes with unique
+\tab All the languages we are analyzing provide classes and are an important feature when designing a high level language. However, Python implements classes with unique
 syntax and Semantics. Attributes not defined in classes are static private variables are declared with a double underscore $(\_\_x)$, and local
 attributes must be declared in methods. Finally, constants do not exist. Being able to declare new attributes in a method is a very powerful feature.
 The problem is that while powerful it hurts readability and is a weird choice for python as a language. When attributes could be defined anywhere it makes attributes hard to find.\\
 
-In C++ and Java the classes are implemented similarly when considering attributes. All attributes are declared outside of methods. You state if the attribute is public, private, or static.
+\tab In C++ and Java the classes are implemented similarly when considering attributes. All attributes are declared outside of methods. You state if the attribute is public, private, or static.
 In python attributes and methods are public by default meanwhile Java and C++ attributes are Private by default. Private by default attributes is great. Enforcing abstraction on the user and
 increasing the security of their classes as the user is forced to decide what can be accessed from the outside. Python declaring private is more readable but is held back by most attributes
 most likely being declared within methods.\\
 
+\section{Class Inheritance}
 
-\section{Functions}
+\tab Another important aspect of classes is inheritance. Inheritance is very powerful and allows the user to reduce the amount of code they need to rewrite. A powerful feature extending from
+inheritance is multiple inheritance. Java does not support multiple inheritance and forces the user to pick a singular class as the parent. Python and C++ both support multiple inheritance
+however each method is different. In multiple inheritance you need to determine a way to deal with conflicting values and which inherited class takes priority. Python determines priority based
+on which class is inherited first and any values that are shared in both classes will always assign as the first given class. C++ solves the issue by disallowing the user to have conflicting
+method and attribute names. One way Java helps with the lack of multiple inheritance is by using interfaces. These serve as blueprints for classes and a class can implement multiple interfaces.
+I believe C++ and Java solve the issue of multiple inheritance better than Python by being more secure. C++ has the best method as it allows for the power of
+multiple inheritances while keeping security.\\
+
+\tab Java requires the user to use classes however Python and C++ do not require the user to. Not requiring classes is the better choice. Not every problem needs classes to be solved and requiring
+classes can add unneeded complexity. While it's important for large scale solutions it adds time and forces the user to think with objects in mind. C++ allows for two user defined data types: the struct
+and the class. Python will require classes for any user defined data types. C++ provides the best solution by allowing the user to decide. You might not need the overhead of a class and instead a struct
+would be the better choice. Structs can also be paired with classes improving readability.\\
 
 \section{Control Flow}
+\tab The control flow of a program is very important for reading the language. C++, Java, and Python all implement some control methods very similarly. The while loop is functionally the same however Java and C++
+have the added do-while loop allowing the user to execute the code at minimum once. The for loop is in all three languages however Python's for loop is different from the rest. Python's will iterate through a list (or any iterable)
+where Java and C++ for loops are more advanced while loops where now you can define a variable to iterate and how to iterate after each pass. Python has match statements which are the same as switch statements are in Java
+C++. All languages contain the if statement however once again they are all similar. Python introduces the elif statement which serves as the if else. The elif statement is great as it shortens the syntax of if else without
+changing the meaning.
 
-
-\section{Data Types}
-
-%  Could combine that with Classes and functions.
 
 \section{Garbage Collection}
 
-While a lot of factors can be broken down into sections there are some factors existing outside these sections. These 
+\tab While a lot of factors can be broken down into sections there are some factors existing outside these sections. These
 factors are still worth considering. One instance is garbage collection if we want implicit or explicit. While implicit
-garbage collection is great and helps secure the language. This could save users a lot of time and make debugging easier 
+garbage collection is great and helps secure the language. This could save users a lot of time and make debugging easier
 but if you are looking for efficiency by removing the overhead of garbage collection explicit would be better.\\
 
-Python and Java both have implicit garbage collection meanwhile C++ has explicit. Explicit garbage collection relies on 
-the user to properly manage their memory usage. Users are very likely to not properly manage their memory and will 
+\tab Python and Java both have implicit garbage collection meanwhile C++ has explicit. Explicit garbage collection relies on
+the user to properly manage their memory usage. Users are very likely to not properly manage their memory and will
 force the user to spend more time debugging. While the efficiency is great it is not worth the security we lose.\\
 
 \section*{References}
